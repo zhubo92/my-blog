@@ -1,0 +1,52 @@
+# Dependencies 
+node_modules/
+
+# Production builds
+dist/
+build/
+
+# Logs and databases
+npm-debug.log*
+*.log
+*.sql
+*.sqlite
+
+# Editor directories and files 
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Parcel build output
+.cache/
+dist/
+
+# Gatsby files 
+.cache/
+public
+
+# Mac OS-specific storage files
+.DS_Store
+
+.deploy_git/
